@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script crossorigin src="https://unpkg.com/react@17.0.0/umd/react.production.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="">
+        <div class="container mx-auto flex justify-between">
+            <nav class="flex list-none text-white text-xs gap-4">
+                <li class="border-r-solid"><a href="index.html">Kênh Người
+                            Bán</a></li>
+                <li><a href="#">| Tải Ứng Dụng</a></li>
+                <li>
+                    <a href="#" class="flex gap-1">
+                        <p>| Kết Nối</p>
+                        <div><img class="w-4 h-4" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/facebook-new.png" /></div>
+                        <div>
+                            <img class="w-4 h-4" src="https://img.icons8.com/material-outlined/24/FFFFFF/instagram-new--v1.png" /></div>
+                    </a>
+                </li>
+            </nav>
+            <nav class="flex list-none gap-4 text-white text-xs">
+                <li>
+                    <a href="#">
+                        <div class="flex gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24
+                                    24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round"
+                                        stroke-linejoin="round" d="M15
+                                        17h5l-1.405-1.405A2.032 2.032 0 0118
+                                        14.158V11a6.002 6.002 0 00-4-5.659V5a2 2
+                                        0 10-4 0v.341C7.67 6.165 6 8.388 6
+                                        11v3.159c0 .538-.214 1.055-.595 1.436L4
+                                        17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                                    </svg>
+                            <p>Thông Báo</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="flex"><img class="h-4 w-4" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/FFFFFF/external-question-mark-essentials-tanah-basah-basic-outline-tanah-basah.png" />
+                            <p>Hỗ Trợ</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0
+                                        24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round"
+                                            stroke-linejoin="round" d="M21 12a9
+                                            9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9
+                                            9a9 9 0 01-9-9m9 9c1.657 0 3-4.03
+                                            3-9s-1.343-9-3-9m0 18c-1.657
+                                            0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0
+                                            019-9" />
+                                        </svg>
+                            <p>Tiếng Việt</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-0" viewBox="0 0 20
+                                            20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M5.293
+                                                7.293a1 1 0 011.414 0L10
+                                                10.586l3.293-3.293a1 1 0 111.414
+                                                1.414l-4 4a1 1 0 01-1.414
+                                                0l-4-4a1 1 0 010-1.414z"
+                                                clip-rule="evenodd" />
+                                            </svg></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                <path stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    d="M16 7a4 4 0 11-8 0 4 4 0
+                                                    018 0zM12 14a7 7 0 00-7
+                                                    7h14a7 7 0 00-7-7z" />
+                                                </svg>
+                        </div>
+                        <p>lethaokaka</p>
+                    </a>
+                </li>
+            </nav>
+        </div>
+        <div class="container mx-auto flex
+                                justify-items-center">
+            <div><img class="w-[162px] h-[50px]" src="https://storage.googleapis.com/ops-shopee-files-live/live/affiliate-blog/2019/05/logo-full-white.png" alt=""></div>
+            <div class="flex w-[795px] h-11 p-1 pl-16">
+                <form action="">
+                    <input class="w-[754px] h-10 p-3
+                                            rounded-l-md" type="text" placeholder="HOME CLUB - MUA LÀ CÓ
+                                            QUÀ">
+                </form>
+                <button class="bg-white h-10 pr-1
+                                        rounded-r-md" disabled={true};>
+                                        <div class="bg-orange-500 h-9 w-12 p-1 flex
+                                            rounded-md justify-center items-center">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                class="h-5 w-5 m-1" fill="none"
+                                                viewBox="0 0 24 24"
+                                                stroke="currentColor"
+                                                stroke-width="2">
+                                                <path stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    d="M21
+                                                    21l-6-6m2-5a7 7 0 11-14 0 7
+                                                    7 0
+                                                    0114 0z" />
+                                                </svg> </div>
+                                        </button>
+                <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white mt-4
+                                                ml-8" fill="none" viewBox="0 0
+                                                24 24" stroke="currentColor" stroke-width="2">
+                                                <path stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    d="M3
+                                                    3h2l.4 2M7 13h10l4-8H5.4M7
+                                                    13L5.4 5M7 13l-2.293
+                                                    2.293c-.63.63-.184 1.707.707
+                                                    1.707H17m0 0a2 2 0 100 4 2 2
+                                                    0
+                                                    000-4zm-8 2a2 2 0 11-4 0 2 2
+                                                    0
+                                                    014 0z" />
+                                                </svg></div>
+            </div>
+
+        </div>
+        <nav class="container mx-auto list-none flex
+                                        gap-2 text-xs text-white pl-[225px]">
+            <li><a href="#">Bắp rang mắm</a></li>
+            <li><a href="#">Socola</a></li>
+            <li><a href="#">Balo da</a></li>
+            <li><a href="#">Giày sneaker</a></li>
+            <li><a href="#">Bàn học Ikia</a></li>
+            <li><a href="#">Macbook Air M1</a></li>
+            <li><a href="#">Tai nghe Hocco</a></li>
+            <li><a href="#">Iphone 11</a></li>
+        </nav>
+    </header>
+    <div class="container mx-auto flex gap-1">
+        <div class="w-2/3"><img src="https://cf.shopee.vn/file/42b51ccb15081376442f76c4a484decc_xxhdpi" alt=""></div>
+        <div class="w-1/3 grid gap-1">
+            <div>
+                <img src="https://cf.shopee.vn/file/4b7e827f06738ca3344235b6d993db99_xhdpi" alt="">
+            </div>
+            <div>
+                <img src="https://cf.shopee.vn/file/d6a1b367febcb0147be6d7b970425b3b_xhdpi" alt="">
+            </div>
+        </div>
+    </div>
+    <nav class="container mx-auto flex
+                                    justify-center text-xs mt-4">
+        <div class="grid w-[100px] h-[81px]
+                                        text-center justify-center
+                                        justify-items-center">
+            <div><img class="h-[45px] w-[45px]" src="https://cf.shopee.vn/file/e4a404283b3824c211c1549aedd28d5f_xhdpi" alt=""></div>
+            <p>Khung giờ săn sale</p>
+        </div>
+        <div class="grid w-[100px] h-[81px]
+                                        text-center justify-center
+                                        justify-items-center">
+            <div><img class="h-[45px] w-[45px]" src="https://cf.shopee.vn/file/b3535d7e56c58c4ebe9a87672d38cc5e_xhdpi" alt=""></div>
+            <p>Gì Cũng Rẻ - Mua Là Freeship</p>
+        </div>
+        <div class="grid w-[100px] h-[81px]
+                                        text-center justify-center
+                                        justify-items-center">
+            <div><img class="h-[45px] w-[45px]" src="https://cf.shopee.vn/file/c7a2e1ae720f9704f92f72c9ef1a494a_xhdpi" alt=""></div>
+            <p>Miễn Phí Vận Chuyển</p>
+        </div>
+        <div class="grid w-[100px] h-[81px]
+                                        text-center justify-center
+                                        justify-items-center">
+            <div><img class="h-[45px] w-[45px]" src="https://cf.shopee.vn/file/21a4856d1fecd4eda143748661315dba_xhdpi" alt=""></div>
+            <p>Hoàn Xu 6% - Lên Đến 200K</p>
+        </div>
+        <div class="grid w-[100px] h-[81px]
+                                        text-center justify-center
+                                        justify-items-center">
+            <div><img class="h-[45px] w-[45px]" src="https://cf.shopee.vn/file/8d6d5ee795e7675fed39d31ba04c3b92_xhdpi" alt=""></div>
+            <p>Hàng Hiệu Giá Tốt</p>
+        </div>
+        <div class="grid w-[100px] h-[81px]
+                                        text-center justify-center
+                                        justify-items-center">
+            <div><img class="h-[45px] w-[45px]" src="https://cf.shopee.vn/file/29961f92098bc9153b88332110a91c87_xhdpi" alt=""></div>
+            <p>Hàng Quốc Tế - Deal x9K</p>
+        </div>
+        <div class="grid w-[100px] h-[81px]
+                                        text-center justify-center
+                                        justify-items-center">
+            <div><img class="h-[45px] w-[45px]" src="https://cf.shopee.vn/file/9df57ba80ca225e67c08a8a0d8cc7b85_xhdpi" alt=""></div>
+            <p>Nạp Thẻ, Hóa Đơn & Phim</p>
+        </div>
+        <div class="grid w-[100px] h-[81px]
+                                        text-center justify-center
+                                        justify-items-center">
+            <div><img class="h-[45px] w-[45px]" src="https://cf.shopee.vn/file/96385a65fa50800e096bb790fa5c1dba_xhdpi" alt=""></div>
+            <p>Deal Sốc Từ 1K</p>
+        </div>
+        <div class="grid w-[100px] h-[81px]
+                                        text-center justify-center
+                                        justify-items-center">
+            <div><img class="h-[45px] w-[45px]" src="https://cf.shopee.vn/file/ed849a82e8c66bbff8ec0f2869c6fbb7_xhdpi" alt=""></div>
+            <p>Chọn 6 Số Trúng Tiền Triệu</p>
+        </div>
+
+    </nav>
+    <article class="bg-gray-200">
+        <div class="container mx-auto">
+            <div class="grid justify-center pt-10">
+                <div class="bg-white h-20">
+                    <p class="text-xl text-gray-500
+                                                    m-5">DANH MỤC</p>
+                </div>
+                <div class="flex border border-solid
+                                                border-gray-300">
+                    <div class="w-[120px] h-[150px]
+                                                    border-solid border-r
+                                                    border-gray-300
+                                                    cursor-pointer text-xs
+                                                    bg-white grid
+                                                    justify-center">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/687f3967b7c2fe6a134a2c11894eea4b_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/31234a27876fb89cd522d7e3db1ba5ca_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/978b9e4cb61c611aaaf58664fae133c5_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/c3f3edfaa9f6dafc4825b77d8449999d_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/ec14dd4fc238e676e43be2a911414d4d_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/86c294aae72ca1db5f541790f7796260_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/74ca517e1fa74dc4d974e5d03c3139de_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/7abfbfee3c4844652b4a8245e473d857_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/6cb7e633f8b63757463b676bd19a50e4_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/3fb459e3449905545701b418e8220334_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                </div>
+                <div class="flex border border-solid
+                                                border-gray-300">
+
+
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/75ea42f9eca124e9cb3cde744c060e4d_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/099edde1ab31df35bc255912bab54a5e_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/24b194a695ea59d384768b7b471d563f_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/ef1f336ecc6f97b790d5aae9916dcb72_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/49119e891a44fa135f5f6f5fd4cfc747_tn" alt=""></div>
+
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/48630b7c76a7b62bc070c9e227097847_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/fa6ada2555e8e51f369718bbc92ccc52_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/8e71245b9659ea72c1b4e737be5cf42e_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/36013311815c55d303b0e6c62d6a8139_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                    <div class="w-[120px] h-[150px]
+                                                    text-xs bg-white grid
+                                                    justify-center border-solid
+                                                    border-r border-gray-300
+                                                    cursor-pointer">
+                        <div><img class="w-[84px]
+                                                            h-[88px]" src="https://cf.shopee.vn/file/c432168ee788f903f1ea024487f2c889_tn" alt=""></div>
+                        <p>
+                            Thời Trang Nam</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="container mx-auto w-[1200px]
+                                        bg-white pb-3">
+            <div class="w-[1200px] mt-10">
+                <div class="p-3"><img class="w-[130px] h-[30px]" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/fb1088de81e42c4e538967ec12cb5caa.png" alt=""></div>
+                <div class="flex justify-around">
+                    <div class="grid
+                                                    justify-center">
+                        <div class="w-[173px]
+                                                        h-[173px]">
+                            <img src="https://cf.shopee.vn/file/73588902b31d13691b0469426e73e73e" alt="">
+                        </div>
+                        <div class="flex
+                                                        text-red-600
+                                                        text-center
+                                                        justify-center">
+                            <p class="text-xs mt-2">đ</p>
+                            <p class="text-xl">11.000</p>
+                        </div>
+                        <div class="relative
+                                                        bg-orange-300
+                                                        rounded-lg">
+                            <p class="w-[120px]
+                                                            rounded-lg
+                                                            bg-orange-600
+                                                            text-white text-sm
+                                                            text-center">ĐÃ BÁN 54
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="grid
+                                                    justify-center">
+                        <div class="w-[173px]
+                                                        h-[173px]">
+                            <img src="https://cf.shopee.vn/file/73588902b31d13691b0469426e73e73e" alt="">
+                        </div>
+                        <div class="flex
+                                                        text-red-600
+                                                        text-center
+                                                        justify-center">
+                            <p class="text-xs mt-2">đ</p>
+                            <p class="text-xl">11.000</p>
+                        </div>
+                        <div class="relative
+                                                        bg-orange-300
+                                                        rounded-lg">
+                            <p class="w-[120px]
+                                                            rounded-lg
+                                                            bg-orange-600
+                                                            text-white text-sm
+                                                            text-center">ĐÃ BÁN 54
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="grid
+                                                    justify-center">
+                        <div class="w-[173px]
+                                                        h-[173px]">
+                            <img src="https://cf.shopee.vn/file/73588902b31d13691b0469426e73e73e" alt="">
+                        </div>
+                        <div class="flex
+                                                        text-red-600
+                                                        text-center
+                                                        justify-center">
+                            <p class="text-xs mt-2">đ</p>
+                            <p class="text-xl">11.000</p>
+                        </div>
+                        <div class="relative
+                                                        bg-orange-300
+                                                        rounded-lg">
+                            <p class="w-[120px]
+                                                            rounded-lg
+                                                            bg-orange-600
+                                                            text-white text-sm
+                                                            text-center">ĐÃ BÁN 54
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="grid
+                                                    justify-center">
+                        <div class="w-[173px]
+                                                        h-[173px]">
+                            <img src="https://cf.shopee.vn/file/73588902b31d13691b0469426e73e73e" alt="">
+                        </div>
+                        <div class="flex
+                                                        text-red-600
+                                                        text-center">
+                            <p class="text-xs mt-2">đ</p>
+                            <p class="text-xl">11.000</p>
+                        </div>
+                        <div class="relative
+                                                        bg-orange-300
+                                                        rounded-lg">
+                            <p class="w-[120px]
+                                                            rounded-lg
+                                                            bg-orange-600
+                                                            text-white text-sm
+                                                            text-center">ĐÃ BÁN 54
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="grid
+                                                    justify-center">
+                        <div class="w-[173px]
+                                                        h-[173px]">
+                            <img src="https://cf.shopee.vn/file/73588902b31d13691b0469426e73e73e" alt="">
+                        </div>
+                        <div class="flex
+                                                        text-red-600
+                                                        text-center
+                                                        justify-center">
+                            <p class="text-xs mt-2">đ</p>
+                            <p class="text-xl">11.000</p>
+                        </div>
+                        <div class="relative
+                                                        bg-orange-300
+                                                        rounded-lg">
+                            <p class="w-[120px]
+                                                            rounded-lg
+                                                            bg-orange-600
+                                                            text-white text-sm
+                                                            text-center">ĐÃ BÁN 54
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="grid
+                                                    justify-center">
+                        <div class="w-[173px]
+                                                        h-[173px]">
+                            <img src="https://cf.shopee.vn/file/73588902b31d13691b0469426e73e73e" alt="">
+                        </div>
+                        <div class="flex
+                                                        text-red-600
+                                                        text-center
+                                                        justify-center">
+                            <p class="text-xs mt-2">đ</p>
+                            <p class="text-xl">11.000</p>
+                        </div>
+                        <div class="relative
+                                                        bg-orange-300
+                                                        rounded-lg">
+                            <p class="w-[120px]
+                                                            rounded-lg
+                                                            bg-orange-600
+                                                            text-white text-sm
+                                                            text-center">ĐÃ BÁN 54
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container mx-auto w-[1200px]
+                                        mt-5">
+            <div><img src="https://cf.shopee.vn/file/e353fef28286effd7ef597b0946981e1" alt=""></div>
+        </div>
+        <div class="container mx-auto w-[1200px]
+                                        mt-5 bg-white">
+            <div class="flex gap-4 p-3
+                                            border-b-gray-200 border-solid">
+                <p class="text-red-700 font-medium
+                                                text-base leading-5 uppercase
+                                                font-sans">SHOPEE MALL</p>
+                <p>|</p>
+                <div class="flex gap-4">
+                    <div><img class="w-4 h-4 m-1" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepage/6c502a2641457578b0d5f5153b53dd5d.png" alt=""></div>
+                    <p>7 Ngày Miễn Phí Trả Hàng</p>
+                </div>
+                <p>|</p>
+                <div class="flex gap-4">
+                    <div>
+                        <img class="w-4 h-4 m-1" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepage/16ead7e0a68c3cff9f32910e4be08122.png" alt="">
+                    </div>
+                    <p>Hàng Chính Hãng 100%</p>
+                </div>
+                <p>|</p>
+                <div class="flex gap-4">
+                    <div><img class="w-4 h-4 m-1" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepage/511aca04cc3ba9234ab0e4fcf20768a2.png" alt=""></div>
+                    <p>Miễn Phí Vận Chuyển</p>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="w-[390px] h-[463px]">
+                    <img src="https://cf.shopee.vn/file/753f98a80afde2e46c1aa08e854fbbe4" alt="">
+                </div>
+                <div class="w-2/3">
+                    <div class="flex">
+                        <div class="grid w-[180px]
+                                                        h-[216px]">
+                            <div><img src="https://cf.shopee.vn/file/bf570b25d01bd70deab626c717437fbc_xhdpi" alt=""></div>
+                            <p class="text-red-700
+                                                            text-center">Đón sale cực sốc</p>
+                        </div>
+                        <div class="grid w-[180px]
+                                                        h-[216px]">
+                            <div><img src="https://cf.shopee.vn/file/bf570b25d01bd70deab626c717437fbc_xhdpi" alt=""></div>
+                            <p class="text-red-700
+                                                            text-center">Đón sale cực sốc</p>
+                        </div>
+                        <div class="grid w-[180px]
+                                                        h-[216px]">
+                            <div><img src="https://cf.shopee.vn/file/bf570b25d01bd70deab626c717437fbc_xhdpi" alt=""></div>
+                            <p class="text-red-700
+                                                            text-center">Đón sale cực sốc</p>
+                        </div>
+                        <div class="grid w-[180px]
+                                                        h-[216px]">
+                            <div><img src="https://cf.shopee.vn/file/bf570b25d01bd70deab626c717437fbc_xhdpi" alt=""></div>
+                            <p class="text-red-700
+                                                            text-center">Đón sale cực sốc</p>
+                        </div>
+
+                    </div>
+                    <div class="flex">
+                        <div class="grid w-[180px]
+                                                        h-[216px]">
+                            <div><img src="https://cf.shopee.vn/file/bf570b25d01bd70deab626c717437fbc_xhdpi" alt=""></div>
+                            <p class="text-red-700
+                                                            text-center">Đón sale cực sốc</p>
+                        </div>
+                        <div class="grid w-[180px]
+                                                        h-[216px]">
+                            <div><img src="https://cf.shopee.vn/file/bf570b25d01bd70deab626c717437fbc_xhdpi" alt=""></div>
+                            <p class="text-red-700
+                                                            text-center">Đón sale cực sốc</p>
+                        </div>
+                        <div class="grid w-[180px]
+                                                        h-[216px]">
+                            <div><img src="https://cf.shopee.vn/file/bf570b25d01bd70deab626c717437fbc_xhdpi" alt=""></div>
+                            <p class="text-red-700
+                                                            text-center">Đón sale cực sốc</p>
+                        </div>
+                        <div class="grid w-[180px]
+                                                        h-[216px]">
+                            <div><img src="https://cf.shopee.vn/file/bf570b25d01bd70deab626c717437fbc_xhdpi" alt=""></div>
+                            <p class="text-red-700
+                                                            text-center">Đón sale cực sốc</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto w-[1200px]
+                                        mt-5 bg-white ">
+            <div class="p-3">
+                <p class="text-gray-500">XU HƯỚNG TÌM KIẾM</p>
+            </div>
+            <div class="flex justify-around">
+                <div class="flex">
+                    <div class=" m-4">
+                        <p class="text-lg">Dép</p>
+                        <p class="text-gray-500
+                                                        text-base">4k+ sản phẩm</p>
+                    </div>
+                    <div>
+                        <img class="w-[100px]
+                                                        h-[100px]" src="https://cf.shopee.vn/file/725c078cc6b0e8bb787a8c2eba0ec8c0" alt="">
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class=" m-4">
+                        <p class="text-lg">Dép</p>
+                        <p class="text-gray-500
+                                                        text-base">4k+ sản phẩm</p>
+                    </div>
+                    <div>
+                        <img class="w-[100px]
+                                                        h-[100px]" src="https://cf.shopee.vn/file/725c078cc6b0e8bb787a8c2eba0ec8c0" alt="">
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class=" m-4">
+                        <p class="text-lg">Dép</p>
+                        <p class="text-gray-500
+                                                        text-base">4k+ sản phẩm</p>
+                    </div>
+                    <div>
+                        <img class="w-[100px]
+                                                        h-[100px]" src="https://cf.shopee.vn/file/725c078cc6b0e8bb787a8c2eba0ec8c0" alt="">
+                    </div>
+                </div>
+                <div class="flex ">
+                    <div class=" m-4">
+                        <p class="text-lg">Dép</p>
+                        <p class="text-gray-500
+                                                        text-base">4k+ sản phẩm</p>
+                    </div>
+                    <div>
+                        <img class="w-[100px]
+                                                        h-[100px]" src="https://cf.shopee.vn/file/725c078cc6b0e8bb787a8c2eba0ec8c0" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto w-[1200px]
+                                        mt-5 bg-white ">
+            <div class="p-3">
+                <p class="text-red-600">TÌM KIẾM HÀNG ĐẦU</p>
+            </div>
+            <div class="flex gap-3 justify-around">
+                <div class="grid">
+                    <div class="relative">
+                        <img class="w-[180px]
+                                                        h-[180px] " src="https://cf.shopee.vn/file/585fb9316a9bc9b9ab79157557bd382d" alt="">
+                        <p class="text-gray-500
+                                                        absolute bottom-0 left-0
+                                                        w-full text-center
+                                                        bg-gray-200">Bán 47k+/Tháng
+                        </p>
+                    </div>
+                    <p class="float-left mt-3
+                                                    text-lg font-medium ">Mắt Kính Gọng Tròn</p>
+                </div>
+                <div class="grid">
+                    <div class="relative">
+                        <img class="w-[180px]
+                                                        h-[180px] " src="https://cf.shopee.vn/file/585fb9316a9bc9b9ab79157557bd382d" alt="">
+                        <p class="text-gray-500
+                                                        absolute bottom-0 left-0
+                                                        w-full text-center
+                                                        bg-gray-200">Bán 47k+/Tháng
+                        </p>
+                    </div>
+                    <p class="float-left mt-3
+                                                    text-lg font-medium ">Mắt Kính Gọng Tròn</p>
+                </div>
+                <div class="grid">
+                    <div class="relative">
+                        <img class="w-[180px]
+                                                        h-[180px] " src="https://cf.shopee.vn/file/585fb9316a9bc9b9ab79157557bd382d" alt="">
+                        <p class="text-gray-500
+                                                        absolute bottom-0 left-0
+                                                        w-full text-center
+                                                        bg-gray-200">Bán 47k+/Tháng
+                        </p>
+                    </div>
+                    <p class="float-left mt-3
+                                                    text-lg font-medium ">Mắt Kính Gọng Tròn</p>
+                </div>
+                <div class="grid">
+                    <div class="relative">
+                        <img class="w-[180px]
+                                                        h-[180px] " src="https://cf.shopee.vn/file/585fb9316a9bc9b9ab79157557bd382d" alt="">
+                        <p class="text-gray-500
+                                                        absolute bottom-0 left-0
+                                                        w-full text-center
+                                                        bg-gray-200">Bán 47k+/Tháng
+                        </p>
+                    </div>
+                    <p class="float-left mt-3
+                                                    text-lg font-medium ">Mắt Kính Gọng Tròn</p>
+                </div>
+                <div class="grid">
+                    <div class="relative">
+                        <img class="w-[180px]
+                                                        h-[180px] " src="https://cf.shopee.vn/file/585fb9316a9bc9b9ab79157557bd382d" alt="">
+                        <p class="text-gray-500
+                                                        absolute bottom-0 left-0
+                                                        w-full text-center
+                                                        bg-gray-200">Bán 47k+/Tháng
+                        </p>
+                    </div>
+                    <p class="float-left mt-3
+                                                    text-lg font-medium ">Mắt Kính Gọng Tròn</p>
+                </div>
+                <div class="grid">
+                    <div class="relative">
+                        <img class="w-[180px]
+                                                        h-[180px] " src="https://cf.shopee.vn/file/585fb9316a9bc9b9ab79157557bd382d" alt="">
+                        <p class="text-gray-500
+                                                        absolute bottom-0 left-0
+                                                        w-full text-center
+                                                        bg-gray-200">Bán 47k+/Tháng
+                        </p>
+                    </div>
+                    <p class="float-left mt-3
+                                                    text-lg font-medium ">Mắt Kính Gọng Tròn</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto w-[1200px]
+                                        mt-5 bg-white ">
+            <div class="p-3 text-center">
+                <p class="text-red-600 uppercase
+                                                font-medium">Gợi Ý Hôm Nay</p>
+            </div>
+            <div class="flex flex-wrap justify-around">
+                <div class="w-[190px] h-[320px] overflow-hidden bg-slate-100 p-2">
+                    <div class="mt-2">
+                        <div><img class="w-[188px]
+                                                            h-[188px]" src="https://cf.shopee.vn/file/148d0c8e5b4c522209fd494d871e82dc_tn" alt=""></div>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-xs break-words
+                                                        m-2 w-full">Áo thun tay lỡ Sweater Basic Vender Ss1 - Vải cotton 100%, full tags ( V4 )
+                        </p>
+                        <p class="text-xs bg-orange-400
+                                                        w-1/3 m-2">Giảm 10%</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-red-700">đ 190.000</p>
+                            <p class="text-xs text-gray-300">đã mua 2k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[190px] h-[320px] overflow-hidden bg-slate-100 p-2">
+                    <div class="mt-2">
+                        <div><img class="w-[188px]
+                                                            h-[188px]" src="https://cf.shopee.vn/file/148d0c8e5b4c522209fd494d871e82dc_tn" alt=""></div>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-xs break-words
+                                                        m-2 w-full">Áo thun tay lỡ Sweater Basic Vender Ss1 - Vải cotton 100%, full tags ( V4 )
+                        </p>
+                        <p class="text-xs bg-orange-400
+                                                        w-1/3 m-2">Giảm 10%</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-red-700">đ 190.000</p>
+                            <p class="text-xs text-gray-300">đã mua 2k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[190px] h-[320px] overflow-hidden bg-slate-100 p-2">
+                    <div class="mt-2">
+                        <div><img class="w-[188px]
+                                                            h-[188px]" src="https://cf.shopee.vn/file/148d0c8e5b4c522209fd494d871e82dc_tn" alt=""></div>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-xs break-words
+                                                        m-2 w-full">Áo thun tay lỡ Sweater Basic Vender Ss1 - Vải cotton 100%, full tags ( V4 )
+                        </p>
+                        <p class="text-xs bg-orange-400
+                                                        w-1/3 m-2">Giảm 10%</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-red-700">đ 190.000</p>
+                            <p class="text-xs text-gray-300">đã mua 2k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[190px] h-[320px] overflow-hidden bg-slate-100 p-2">
+                    <div class="mt-2">
+                        <div><img class="w-[188px]
+                                                            h-[188px]" src="https://cf.shopee.vn/file/148d0c8e5b4c522209fd494d871e82dc_tn" alt=""></div>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-xs break-words
+                                                        m-2 w-full">Áo thun tay lỡ Sweater Basic Vender Ss1 - Vải cotton 100%, full tags ( V4 )
+                        </p>
+                        <p class="text-xs bg-orange-400
+                                                        w-1/3 m-2">Giảm 10%</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-red-700">đ 190.000</p>
+                            <p class="text-xs text-gray-300">đã mua 2k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[190px] h-[320px] overflow-hidden bg-slate-100 p-2">
+                    <div class="mt-2">
+                        <div><img class="w-[188px]
+                                                            h-[188px]" src="https://cf.shopee.vn/file/148d0c8e5b4c522209fd494d871e82dc_tn" alt=""></div>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-xs break-words
+                                                        m-2 w-full">Áo thun tay lỡ Sweater Basic Vender Ss1 - Vải cotton 100%, full tags ( V4 )
+                        </p>
+                        <p class="text-xs bg-orange-400
+                                                        w-1/3 m-2">Giảm 10%</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-red-700">đ 190.000</p>
+                            <p class="text-xs text-gray-300">đã mua 2k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[190px] h-[320px] overflow-hidden bg-slate-100 p-2">
+                    <div class="mt-2">
+                        <div><img class="w-[188px]
+                                                            h-[188px]" src="https://cf.shopee.vn/file/148d0c8e5b4c522209fd494d871e82dc_tn" alt=""></div>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-xs break-words
+                                                        m-2 w-full">Áo thun tay lỡ Sweater Basic Vender Ss1 - Vải cotton 100%, full tags ( V4 )
+                        </p>
+                        <p class="text-xs bg-orange-400
+                                                        w-1/3 m-2">Giảm 10%</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-red-700">đ 190.000</p>
+                            <p class="text-xs text-gray-300">đã mua 2k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[190px] h-[320px] overflow-hidden bg-slate-100 p-2">
+                    <div class="mt-2">
+                        <div><img class="w-[188px]
+                                                            h-[188px]" src="https://cf.shopee.vn/file/148d0c8e5b4c522209fd494d871e82dc_tn" alt=""></div>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-xs break-words
+                                                        m-2 w-full">Áo thun tay lỡ Sweater Basic Vender Ss1 - Vải cotton 100%, full tags ( V4 )
+                        </p>
+                        <p class="text-xs bg-orange-400
+                                                        w-1/3 m-2">Giảm 10%</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-red-700">đ 190.000</p>
+                            <p class="text-xs text-gray-300">đã mua 2k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[190px] h-[320px] overflow-hidden bg-slate-100 p-2">
+                    <div class="mt-2">
+                        <div><img class="w-[188px]
+                                                            h-[188px]" src="https://cf.shopee.vn/file/148d0c8e5b4c522209fd494d871e82dc_tn" alt=""></div>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-xs break-words
+                                                        m-2 w-full">Áo thun tay lỡ Sweater Basic Vender Ss1 - Vải cotton 100%, full tags ( V4 )
+                        </p>
+                        <p class="text-xs bg-orange-400
+                                                        w-1/3 m-2">Giảm 10%</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-red-700">đ 190.000</p>
+                            <p class="text-xs text-gray-300">đã mua 2k</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[190px] h-[320px] overflow-hidden bg-slate-100 p-2">
+                    <div class="mt-2">
+                        <div><img class="w-[188px]
+                                                            h-[188px]" src="https://cf.shopee.vn/file/148d0c8e5b4c522209fd494d871e82dc_tn" alt=""></div>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-xs break-words
+                                                        m-2 w-full">Áo thun tay lỡ Sweater Basic Vender Ss1 - Vải cotton 100%, full tags ( V4 )
+                        </p>
+                        <p class="text-xs bg-orange-400
+                                                        w-1/3 m-2">Giảm 10%</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-red-700">đ 190.000</p>
+                            <p class="text-xs text-gray-300">đã mua 2k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[190px] h-[320px] overflow-hidden bg-slate-100 p-2">
+                    <div class="mt-2">
+                        <div><img class="w-[188px]
+                                                            h-[188px]" src="https://cf.shopee.vn/file/148d0c8e5b4c522209fd494d871e82dc_tn" alt=""></div>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-xs break-words
+                                                        m-2 w-full">Áo thun tay lỡ Sweater Basic Vender Ss1 - Vải cotton 100%, full tags ( V4 )
+                        </p>
+                        <p class="text-xs bg-orange-400
+                                                        w-1/3 m-2">Giảm 10%</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-red-700">đ 190.000</p>
+                            <p class="text-xs text-gray-300">đã mua 2k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[190px] h-[320px] overflow-hidden bg-slate-100 p-2">
+                    <div class="mt-2">
+                        <div><img class="w-[188px]
+                                                            h-[188px]" src="https://cf.shopee.vn/file/148d0c8e5b4c522209fd494d871e82dc_tn" alt=""></div>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-xs break-words
+                                                        m-2 w-full">Áo thun tay lỡ Sweater Basic Vender Ss1 - Vải cotton 100%, full tags ( V4 )
+                        </p>
+                        <p class="text-xs bg-orange-400
+                                                        w-1/3 m-2">Giảm 10%</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-red-700">đ 190.000</p>
+                            <p class="text-xs text-gray-300">đã mua 2k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[190px] h-[320px] overflow-hidden bg-slate-100 p-2">
+                    <div class="mt-2">
+                        <div><img class="w-[188px]
+                                                            h-[188px]" src="https://cf.shopee.vn/file/148d0c8e5b4c522209fd494d871e82dc_tn" alt=""></div>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-xs break-words
+                                                        m-2 w-full">Áo thun tay lỡ Sweater Basic Vender Ss1 - Vải cotton 100%, full tags ( V4 )
+                        </p>
+                        <p class="text-xs bg-orange-400
+                                                        w-1/3 m-2">Giảm 10%</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-red-700">đ 190.000</p>
+                            <p class="text-xs text-gray-300">đã mua 2k</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>Xem thêm</button>
+        </div>
+    </article>
+    <section class=" py-6 container m-auto md:grid-cols-5 grid-cols-2 grid">
+        <div class="max-w-[266px] w-full px-3">
+            <h3 class="font-bold text-black text-lg capitalize">
+                Hỗ trợ khách hàng
+            </h3>
+            <div>
+                <span class="text-text128 text-xs">Hotline: <a class="text-black" href="">1900-6035</a> (1000 đ/phút,
+            8-21h kể cả T7, CN)</span
+          >
+        </div>
+        <div class="text-xs text-text128">
+          <ul>
+            <li class="my-[10px] capitalize">
+              <a href="">các câu hỏi thường gặp</a>
+            </li>
+            <li class="my-[10px] capitalize">
+              <a href="">hướng dẫn đặt hàng</a>
+            </li>
+            <li class="my-[10px] capitalize">
+              <a href="">phương thức vận chuyển</a>
+            </li>
+            <li class="my-[10px] capitalize">
+              <a href="">chính sách đổi trả</a>
+            </li>
+            <li class="my-[10px] capitalize">
+              <a href="">hướng dẫn trả góp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="max-w-[266px] w-full px-3">
+        <h3 class="font-bold text-black text-lg capitalize">về tiki</h3>
+        <div class="text-xs text-text128">
+          <ul>
+            <li class="my-[10px] capitalize">
+              <a href="">Giới thiệu Tiki</a>
+            </li>
+            <li class="my-[10px] capitalize">
+              <a href="">Tuyển dụng</a>
+            </li>
+            <li class="my-[10px] capitalize">
+              <a href="">Chính sách bảo mật thanh toán</a>
+            </li>
+            <li class="my-[10px] capitalize">
+              <a href="">Chính sách bảo mật thông tin cá nhân</a>
+            </li>
+            <li class="my-[10px] capitalize">
+              <a href="">Chính sách giải quyết khiếu nại</a>
+            </li>
+            <li class="my-[10px] capitalize">
+              <a href="">Tiếp thị liên kết cùng Tiki</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="max-w-[266px] w-full px-3">
+        <h3 class="font-bold text-black text-lg capitalize">về tiki</h3>
+        <div class="text-xs text-text128">
+          <ul>
+            <li class="my-[10px] capitalize">
+              <a href="">Quy chế hoạt động Sàn GDTMĐT</a>
+            </li>
+            <li class="my-[10px] capitalize">
+              <a href="">Bán hàng cùng Tiki</a>
+            </li>
+          </ul>
+        </div>
+        <h3 class="font-semibold text-black text-lg capitalize">
+          Chứng nhận bởi
+        </h3>
+        <div class="flex mt-3">
+          <img
+            class="max-w-[30px] mr-[10px]"
+            src="./images/bo-cong-thuong-2.png"
+            alt=""
+          />
+          <img class="max-w-[80px]" src="./images/bo-cong-thuong.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="max-w-[266px] w-full px-3">
+        <h3 class="font-bold text-black text-lg capitalize">
+          phương thức thanh toán
+        </h3>
+
+        <div>
+          <img class="max-w-[200px] mt-2" src="./images/sprite.png" alt="" />
+        </div>
+        <h3 class="font-medium text-black text-base capitalize mt-3">
+          dịch vụ giao hàng
+        </h3>
+        <div>
+          <img class="max-w-[60px] mt-2" src="./images/tikinow.png" alt="" />
+        </div>
+      </div>
+
+      <div class="max-w-[266px] w-full px-3">
+        <h3 class="font-bold text-black text-lg capitalize">
+          kết nối với chúng tôi
+        </h3>
+        <div></div>
+        <h3>tải ứng dụng trên điện thoại</h3>
+        <div class="flex justify-between items-center mt-3">
+          <div>
+            <img class="max-w-[80%]" src="./images/qrcode.png" alt="" />
+          </div>
+          <div class="flex flex-wrap">
+            <img class="max-w-[70%] mb-2" src="./images/appstore.png" alt="" />
+            <img class="max-w-[70%]" src="./images/playstore.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+    </script>
+</body>
+
+</html>
